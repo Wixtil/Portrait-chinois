@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Portrait chinois - Anthony STANISLAS</title>
+</head>
+<body>
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ul>
+    <header>
+        <h1>Portrait chinois</h1>
+        <h2 class="nom">Anthony STANISLAS</h2>
+    </header>
+    <main>
+    </main>
+    <form class="formulaire">
+        <h3 class="titre-form">À toi de créer ton analogie</h3>
+        <label for="analogie">Si j'étais</label>
+        <input type="text" name="texte" id="analogie" required minlength="4" maxlength="30" size="25" placeholder="Exemple : une plante">
+        <br>
+        <br>
+        <label for="valeurAnalogie">Je serais</label>
+        <input type="text" name="texte" id="valeurAnalogie" required minlength="4" maxlength="30" size="25" placeholder="Exemple : un cactus stylé">
+        <br>
+        <br>
+        <label for="explicationformulaire">Parce que</label>
+        <textarea id="explicationform" name="name" rows="4" cols="30" placeholder="Exemple: c'est mon jeu préféré...">
+        </textarea>
+        <br>
+        <br>
+        <label for="name">Choisis ton image</label>
+        <input type="url" id="imageform" name="name" required minlength="4" maxlength="1000" size="55" placeholder="Lien de ton choix">
+        <br>
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="name" required minlength="4" maxlength="1000" size="60" placeholder="Entre ton adresse mail"> 
+        <button id="envoyer">Envoyer</button>
+        </form>
+        
+    <footer>
+        <button class="bouton-credit" data-modal-target="#modal">Mentions légales</button>
+        <div class="modal" id="modal">
+        <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+            <div class="title"> Mentions légales</div>
+        </div>
+        <div class="modal-body">
+            <p> Ce site est hébergé par le serveur de l’université Gustave Eiffel. 
+                En ce qui concerne les images et le background : 
+                <ul>
+                    <li>paresseux.jpg : provient du site : <a href="https://www.ladepeche.fr/2023/05/01/les-paresseux-du-costa-rica-porteurs-de-lantibiotique-du-futur-11169243.php">Ladepeche</a></li><br>
+
+                    <li> undertalemain.jpg : provient du site :
+                       <a href="https://fr.wikipedia.org/wiki/Undertale">Wikipedia</a> </li><br>
+
+                    <li>hxh.webp : provient du site : <a href="Hunter X Hunter (2011) - Série TV 2011 - AlloCiné">AlloCiné</a></li><br>
+
+                    <li>patrick.webp : provient du site : <a href="https://mugenpedia.fandom.com/fr/wiki/Patrick_l'Étoile_de_mer">Mugenpedia.fandom</a></li><br>
+
+                    <li>asgore.webp : provient du site : <a href="https://undertale.fandom.com/fr/wiki/Asgore_Dreemurr?file=Untitled-3.png">Undertale.fandom</a></li><br>
+
+                    <li>pokemon.png : provient du site : <a href="https://www.pokepedia.fr/Fichier:Monaflèmit-RS.png">Pokepedia</a></li><br>
+
+                    <li>escalade1.jpg : provient du site : <a href="https://unsplash.com/photos/woman-climbing-on-wall-during-daytime-VmYZe_yqxL0">Unsplash</a></li><br>
+
+                    <li>Lien de l’animation css (background) : <a href=" https://wweb.dev/resources/animated-css-background-generator">wweb.dev</a></li><br>
+                </ul>
+            </p>
+
+            <p>Les données insérées dans le formulaire sont traitées à partir de l’API de Philippe GAMBETTE. Pour toutes questions concernant les données, il est possible de contacter la personne responsable du traitement de ces données (<a href="mailto:philippe.gambette@univ-eiffel.fr">philippe.gambette@univ-eiffel.fr</a>). Les adresses mail et les adresses IP seront conservées pendant un an au maximum. </p>
+
+            <p>Remerciements : 
+                Merci à l'aide de Caroline DOUNG en MMI2 pour le JavaScript. 
+            </p>
+        
+        </div>
+        </div>
+        <div id="overlay"></div>
+
+    </footer>
+</body>
+<script src="./data.json"></script>
+<script src="./script.js"></script>
+<script src="./generate.js"></script>
+</html>

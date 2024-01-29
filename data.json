@@ -1,0 +1,58 @@
+[
+    {
+        "numero": "1",
+        "analogie": "un animal",
+        "valeurAnalogie": "un paresseux",
+        "explication": "c'est un animal de nature très lente et qui dort souvent. Je pense donc que toute personne me connaissant peut affirmer ce choix des plus réfléchis. ",
+        "image": "./images/paresseux.jpg",
+        "alt":"Photo d'un paresseux"
+    },
+    {
+        "numero": "2",
+        "analogie": "un jeu vidéo",
+        "valeurAnalogie": "Undertale",
+        "explication": "Undertale est un jeu en 2D de type RPG, narratif proposant des récits très riches et dans lequel nous pouvons faire nos propres choix. C'est un jeu que j'aime beaucoup car il apporte des mécaniques différentes des jeux qu'on connait, et ce jeu se démarque par sa profondeur mais aussi par ses musiques exceptionelles. Ce jeu a été développé par une seule et même persone : Toby Fox. ",
+        "image": "./images/undertalemain.jpg",
+        "alt":"Photo d'Undertale"
+    },
+    {
+        "numero": "3",
+        "analogie": "un animé",
+        "valeurAnalogie": "Hunter x Hunter",
+        "explication": "c’est un animé que j’affectionne particulièrement pour son histoire originale et ses personnages attachants. Dans Hunter x Hunter, on suit l’aventure de personnages qui sont chacun à la tête d’un objectif précis. Pour atteindre leurs objectifs, ils doivent braver d'innombrables épreuves plus coriaces les unes que les autres. Cette détermination mise à rude épreuve à chaque épisode est ce que je trouve de très intéressant dans cet animé et qui m’inspire chaque jour.",
+        "image": "./images/hxh.webp",
+        "alt":"Photo de Hunter x Hunter"
+    },
+    {
+        "numero": "4",
+        "analogie": "un personnage de dessin animé",
+        "valeurAnalogie": "Patrick",
+        "explication": "c’est un personnage humoristique. Patrick est celui qui a le rôle de l’idiot du village. Il est marrant et pourtant n’hésite pas à se montrer sérieux et faire preuve de bon sens quand il le faut. C’est ce trait de personnalité qui fait de Patrick un personnage unique. L’humour chez Patrick représente pour moi une qualité importante. Pour moi, l’humour est autant essentiel car une partie de ma personnalité se fonde sur celui-ci. ",
+        "image": "./images/patrick.webp",
+        "alt":"Photo de Patrick l'étoile de mer"
+    },
+    {
+        "numero": "5",
+        "analogie": "une musique",
+        "valeurAnalogie": "His theme",
+        "explication": "c’est une musique qui me replonge dans l’ambiance du jeu et qui me rappelle les émotions que j’ai ressenties en jouant à ce jeu. À travers cette musique je peux me remémorer les souvenirs que j’ai du jeu et les histoires de chacun des personnages. Cette musique pour moi nostalgique me rappelle à quel point j’ai adoré jouer à Undertale. ",
+        "image": "./images/asgore.webp",
+        "alt":"Photo d'un personnage d'Undertale"
+    },
+    {
+        "numero": "6",
+        "analogie": "un pokemon",
+        "valeurAnalogie": "Monaflèmit",
+        "explication": "je trouve qu’il me ressemble d’une certaine façon. Derrière ses airs de pokémon passif et absentéiste, il a un bon potentiel et est très fort. Ses statistiques élevées le prouvent. Comme lui, je sais me donner les moyens pour atteindre mes objectifs en repoussant mes limites et en utilisant mes capacités.",
+        "image": "./images/pokemon.png",
+        "alt":"Photo d'un Monaflèmit"
+    },
+    {
+        "numero": "7",
+        "analogie": "un sport",
+        "valeurAnalogie": "l'escalade",
+        "explication": "l'escalade est un sport que j'apprécie vraiment où le physique, le mental et l'endurance sont mis à l'épreuve. C'est un sport qui me permet de me dépasser dans plusieurs domaines et qui requiert également une bonne perception de l'espace afin de progresser de la meilleure des façons. ",
+        "image": "./images/escalade1.jpg",
+        "alt":"Photo d'un mur d'escalade"
+    }
+]

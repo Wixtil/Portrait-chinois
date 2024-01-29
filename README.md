@@ -1,2 +1,9 @@
-# Potrait-chinois
-Le site portrait chinois est un site basé sur le principe du portrait chinois afin de nous décrire tout en utilisant les langages de programmations HTML, CSS et JS.
+# héberger le portait chinois en local:
+
+url:
+https://etudiant.u-pem.fr/~anthony.stanislas/portrait-chinois/
+
+1. Installez XAMPP sur apachefriends.org
+2. Créez un dossier "portrait-chinois" dans htdocs
+3. Déposez-y les fichiers du site web
+4. Lancez le module apache depuis le panneau de contrôle XAMPP

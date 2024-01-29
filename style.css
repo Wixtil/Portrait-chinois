@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+.background {
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    overflow: hidden;
+}
+.background li {
+    z-index: 0;
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #e5e5e5;
+    color: rgba(185, 185, 185, 0.508);
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 7s ease-in forwards infinite;
+}
+undefined
+.background li:nth-child(0) {
+    animation-delay: 0s;
+    left: 48vw;
+    top: 17vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(1) {
+    animation-delay: 2s;
+    left: 63vw;
+    top: 55vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(2) {
+    animation-delay: 4s;
+    left: 35vw;
+    top: 81vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(3) {
+    animation-delay: 6s;
+    left: 75vw;
+    top: 26vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(4) {
+    animation-delay: 8s;
+    left: 19vw;
+    top: 38vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(5) {
+    animation-delay: 10s;
+    left: 88vw;
+    top: 5vh;
+}
+
+.background li:nth-child(6) {
+    animation-delay: 12s;
+    left: 1vw;
+    top: 93vh;
+    border-color: #ffffff;
+}
+
+.background li:nth-child(7) {
+    animation-delay: 14s;
+    left: 98vw;
+    top: 75vh;
+}
+
+.background li:nth-child(8) {
+    animation-delay: 16s;
+    left: 31vw;
+    top: 61vh;
+    border-color: #ffffff;
+}
+
+
+
+body {
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nom{
+    font-size: 2rem;
+    position:absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 32px;
+}
+/* Header */
+header {
+    height: 100vh;
+}
+
+.content-analogie{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Style boites analogies */
+.container-analogie {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+img {
+    width: 400px;
+    /* height:400px */
+
+}
+
+/* Bouton envoyer */
+
+#envoyer {
+    margin-top: 16px;
+
+}
+/* Mentions légales*/
+
+footer {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.bouton-credit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    position: relative;
+    right: 32%;
+}
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(231, 228, 228);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: relative;
+    left: 18%;
+}
+
+.close-button {
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    
+}
+
+
+.modal-body{
+    padding: 10px 15px;
+    word-wrap: anywhere;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+.hauteur {
+    height: 100%;
+}
+
+.cache-fenetre {
+    display: none;
+}
+
+/* .modal-body ul li {
+    display: flex;
+    flex-wrap: wrap;
+} */
